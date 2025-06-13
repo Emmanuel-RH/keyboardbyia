@@ -42,6 +42,12 @@ Este proyecto experimental implementa un teclado virtual completamente funcional
 - difflib (estándar en Python)
 - winsound (solo disponible en Windows)
 
+Ejecuta el siguiente comando en tu entorno virtual:
+  ```bash
+  pip install opencv-python mediapipe numpy
+
+
+
 ## 📝 Notas Técnicas
 
 - El sistema rastrea la posición del dedo índice (landmark 8) y activa teclas tras una breve permanencia.
