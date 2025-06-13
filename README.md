@@ -34,6 +34,8 @@ Este proyecto experimental implementa un teclado virtual completamente funcional
    cd teclado_virtual_mano
    posteriormente abrir en VisualStudioCode
 
+# EJECUTAR ARCHIVO "teclado_mano.py"
+
 ## 📝 Notas Técnicas
 
 - El sistema rastrea la posición del dedo índice (landmark 8) y activa teclas tras una breve permanencia.
