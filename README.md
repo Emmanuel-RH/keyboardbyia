@@ -34,6 +34,12 @@ Este proyecto experimental implementa un teclado virtual completamente funcional
    cd teclado_virtual_mano
    posteriormente abrir en VisualStudioCode
 
+## 📝 Notas Técnicas
+
+- El sistema rastrea la posición del dedo índice (landmark 8) y activa teclas tras una breve permanencia.
+- La tecla "0" ejecuta el autocompletado cuando hay una sugerencia disponible.
+- El teclado incluye funciones especiales como espacio (␣), borrar (←) y eliminar todo (⎚).
+  
 ## 📦 Dependencias Principales
 
 - opencv-python
@@ -47,10 +53,4 @@ Ejecuta el siguiente comando en tu entorno virtual:
   pip install opencv-python mediapipe numpy
 
 
-
-## 📝 Notas Técnicas
-
-- El sistema rastrea la posición del dedo índice (landmark 8) y activa teclas tras una breve permanencia.
-- La tecla "0" ejecuta el autocompletado cuando hay una sugerencia disponible.
-- El teclado incluye funciones especiales como espacio (␣), borrar (←) y eliminar todo (⎚).
 
